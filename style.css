@@ -15,3 +15,6 @@ filter:grayscale(80%)
 .w3-debablue,.w3-hover-debablue:hover{
 	color:white;background-color:#0C2966
 }
+a{
+	text-decoration: none;
+}
