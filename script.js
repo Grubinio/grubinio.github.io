@@ -1,13 +1,12 @@
 const options = ["Stein", "Schere", "Papier"]
 let oponentSelection = options[Math.floor(Math.random() * 3)];
 let playerSelection = document.getElementById("wurf").value;
-console.log(playerSelection);
 
-document.getElementById("myBtton").addEventListener("click", myFunction);
+document.getElementById("myBtton").addEventListener("click", startPlay);
 
-function myFunction() {
+function startPlay() {
     playerSelection = document.getElementById("wurf").value;
- document.getElementById("output").innerHTML = spiel(playerSelection, oponentSelection);
+ document.getElementById("output").innerHTML = "Output: " + spiel(playerSelection, oponentSelection);
   }
 
 

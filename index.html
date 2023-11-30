@@ -7,18 +7,20 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Stein, Schere, Papier</h1>
-  <label for="'Wurf'">Bitte auswählen:</label>
+  <div class="grid-container">
+  <div class="gg-content"><h1 class="gg-content">Stein, Schere, Papier</h1></div>
+  <div class="gg-content"><label>Bitte auswählen:</label>
 
   <select id="wurf">
     <option value="Stein">Stein</option>
     <option value="Schere">Schere</option>
     <option value="Papier">Papier</option>
   </select>
-  
-  <button id="myBtton">Play!</button>
-  <div>Output: <div id="output">Test</div></div>
 
+  <button id="myBtton">Play!</button>
+</div>
+  <div class="gg-content" id="output">Fang an zu spielen!</div>
+</div>
   <script src="script.js"></script>
 </body>
 </html>
